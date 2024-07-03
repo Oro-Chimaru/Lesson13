@@ -1,6 +1,7 @@
-.head-div {
+.hea-der {
     background-color: #FEF7F2;
-    width: 100%;
+}
+.head-div {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -29,6 +30,7 @@
     margin: 0 auto;
     max-width: 1440px;
     width: 90%;
+    height: 890px;
     display: flex;
 }
 .sec1-leftdiv {
@@ -37,6 +39,7 @@
     padding-top: 245px;
 }
 .img-div {
+    height: 1050.84px;
     display: flex;
     justify-content: end;
     position: relative;
@@ -49,8 +52,8 @@
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 87%;
-    left: 15%;
+    top: 746px;
+    left: 177px;
     background-color: #DDC7BB;
 }
 .maintitle {
@@ -166,9 +169,10 @@
     margin: 0 auto 64px;
 }
 .sec3-divwraper {
-    width: 100%;
+    margin: 0 auto;
+    width: 90%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 .box {
     width: 275px;
@@ -204,18 +208,212 @@
     width: 512px;
     height: 56px;
     text-align: center;
+    font-size: 40px;
+    line-height: 56px;
+    color: #2B1B12;
 }
 .underpic {
     background-color: #DDC7BB;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 18px;
+    padding-bottom: 24px;
 }
 .house1 {
     width: 382px;
-    height: 534px;
-    border-radius: 18px;
 }
 .img1 {
-
+    display: block;
 }
 .underdiv1 {
     display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+.underdiv2 {
+    display: flex;
+    column-gap: 39px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.sizebox {
+    display: flex;
+    align-items: center;
+    column-gap: 8px
+}
+.underdiv3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logodiv1 {
+    width: 24px;
+    height: 24px;
+    border-radius: 8px;
+    background-color: white;
+}
+.signupbox {
+    width: 98px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cityp {
+    font-size: 20px;
+    line-height: 24.38px;
+    color: #2B1B12;
+}
+.sec4-divwraper {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sec5-title {
+    margin: 199px auto 63px;
+    padding-top: 56px;
+    width: 452px;
+}
+.title-h2 {
+    width: 80%;
+    font-size: 40px;
+    line-height: 56px;
+    text-align: center;
+}
+.sec5-divwraper {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+.underpic-div {
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+    margin-left: 24px;
+}
+.sec5-box1 {
+    width: 382px;
+    border-radius: 18px;
+    background-color: #DDC7BB;
+}
+.citydiv {
+    margin-left: 12px;
+}
+.cityp1 {
+    margin-bottom: 8px;
+}
+.raitingbox {
+    margin-left: 91px;
+}
+.underpic-p {
+    width: 90%;
+    margin: 22px auto 0;
+    padding-bottom: 34px;
+}
+.room-info {
+    font-size: 16px;
+    line-height: 20.8px;
+}
+.arrowblock {
+    width: 152px;
+    display: flex;
+    margin: 45px auto 0;
+    padding-bottom: 56px;
+    column-gap: 36px;
+}
+.sec5 {
+    background-color: #FEF7F2;
+}
+.s6h3 {
+    margin-top: 144px;
+}
+.sec6-h3 {
+    text-align: center;
+}
+.licensebox1 {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+.license-div {
+    margin-top: 34px;
+    margin-bottom: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 64px;
+}
+.maildiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    margin-bottom: 149px;
+}
+.mailbox {
+    border-radius: 8px;
+    padding-left: 56px;
+    padding-right: 204px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background-color: #DDC7BB;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+}
+.submit {
+    width: 156px;
+    height: 58px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+.foot-er {
+    background-color: #DDC7BB;
+}
+.foot-divwraper {
+    padding-top: 80px;
+    padding-bottom: 202px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.footp1{
+    margin-top: 32px;
+    width: 219px;
+    height: 69px;
+    font-size: 18px;
+    line-height: 23.4px;
+}
+.li-1 {
+    margin-top: 34px;
+    margin-bottom: 32px;
+}
+.li-3 {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.li-2 {
+    margin-bottom: 32px;
+}
+.logodivwraper {
+    display: flex;
+    align-items: center;
+    column-gap: 18px;
+}
+.ldw1 {
+    margin-top: 34px;
+    padding-bottom: 32px;
+}
+.ldw2 {
+    padding-bottom: 32px;
 }
